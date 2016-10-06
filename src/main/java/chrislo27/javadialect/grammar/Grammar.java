@@ -45,11 +45,16 @@ public class Grammar {
 
 	}
 
-	public Grammar add(Replacement from, Replacement to){
+	public Grammar add(Replacement to, Replacement from) {
 		fromGrammar.add(from);
 		toGrammar.add(to);
 
 		return this;
+	}
+
+	public Grammar addJavaKeyword(String toReplace, String replacement) {
+		return add(new Replacement(replacement, JavaKeywords.javaKeyword(toReplace)),
+				new Replacement(toReplace, JavaKeywords.javaKeyword(replacement)));
 	}
 
 }
