@@ -36,25 +36,25 @@ public class JavaKeywords {
 	 const		float		native		super		while
 	 */
 
-	public static final String LAMBDA = "->";
+	public static final String LAMBDA = "\\-\\>";
 
-	public static final String INCREMENT = "++";
-	public static final String DECREMENT = "--";
+	public static final String INCREMENT = "\\+\\+";
+	public static final String DECREMENT = "\\-\\-";
 
-	public static final String ADD = "+";
-	public static final String SUBTRACT = "-";
-	public static final String MULTIPLY = "*";
-	public static final String DIVIDE = "/";
-	public static final String MODULO = "%";
+	public static final String ADD = "\\+";
+	public static final String SUBTRACT = "\\-";
+	public static final String MULTIPLY = "\\*";
+	public static final String DIVIDE = "\\/";
+	public static final String MODULO = "\\%";
 
-	public static final String SHIFT_LEFT = "<<";
-	public static final String SHIFT_RIGHT = ">>";
-	public static final String SHIFT_RIGHT_UNSIGNED = ">>>";
+	public static final String SHIFT_LEFT = "\\<\\<";
+	public static final String SHIFT_RIGHT = "\\>\\>";
+	public static final String SHIFT_RIGHT_UNSIGNED = "\\>\\>\\>";
 
-	public static final String EQUALITY = "==";
-	public static final String INEQUALITY = "!=";
+	public static final String EQUALITY = "\\=\\=";
+	public static final String INEQUALITY = "\\!\\=";
 
-	public static final String ASSIGNMENT = "=";
+	public static final String ASSIGNMENT = "\\=";
 
 	public static final String ABSTRACT = "abstract";
 	public static final String ASSERT = "assert";
@@ -73,6 +73,7 @@ public class JavaKeywords {
 	public static final String ELSE = "else";
 	public static final String ENUM = "enum";
 	public static final String EXTENDS = "extends";
+	public static final String FALSE = "false";
 	public static final String FINAL = "final";
 	public static final String FINALLY = "finally";
 	public static final String FLOAT = "float";
@@ -87,6 +88,7 @@ public class JavaKeywords {
 	public static final String LONG = "long";
 	public static final String NATIVE = "native";
 	public static final String NEW = "new";
+	public static final String NULL = "null";
 	public static final String PACKAGE = "package";
 	public static final String PRIVATE = "private";
 	public static final String PROTECTED = "protected";
@@ -102,6 +104,7 @@ public class JavaKeywords {
 	public static final String THROW = "throw";
 	public static final String THROWS = "throws";
 	public static final String TRANSIENT = "transient";
+	public static final String TRUE = "true";
 	public static final String TRY = "try";
 	public static final String VOID = "void";
 	public static final String VOLATILE = "volatile";
