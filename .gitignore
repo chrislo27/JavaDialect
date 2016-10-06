@@ -1,0 +1,10 @@
+/bin/
+/savedata/
+/consoleLogs/
+/.project
+/target/
+/chatLogs/
+/.idea/
+/eventLogs/
+/.settings/
+/JavaDialect.iml
