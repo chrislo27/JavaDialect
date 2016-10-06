@@ -22,7 +22,7 @@ import java.util.regex.Pattern;
  */
 public class JavaPatterns {
 
-	/**
+	/*
 	 *
 	 abstract	continue	for			new			switch
 	 assert		default		goto		package		synchronized
@@ -35,6 +35,26 @@ public class JavaPatterns {
 	 class		finally		long		strictfp	volatile
 	 const		float		native		super		while
 	 */
+
+	public static final Pattern LAMBDA = javaKeyword("->");
+
+	public static final Pattern INCREMENT = javaKeyword("++");
+	public static final Pattern DECREMENT = javaKeyword("--");
+
+	public static final Pattern ADD = javaKeyword("+");
+	public static final Pattern SUBTRACT = javaKeyword("-");
+	public static final Pattern MULTIPLY = javaKeyword("*");
+	public static final Pattern DIVIDE = javaKeyword("/");
+	public static final Pattern MODULO = javaKeyword("%");
+
+	public static final Pattern SHIFT_LEFT = javaKeyword("<<");
+	public static final Pattern SHIFT_RIGHT = javaKeyword(">>");
+	public static final Pattern SHIFT_RIGHT_UNSIGNED = javaKeyword(">>>");
+
+	public static final Pattern EQUALITY = javaKeyword("==");
+	public static final Pattern INEQUALITY = javaKeyword("!=");
+
+	public static final Pattern ASSIGNMENT = javaKeyword("=");
 
 	public static final Pattern ABSTRACT = javaKeyword("abstract");
 	public static final Pattern ASSERT = javaKeyword("assert");
